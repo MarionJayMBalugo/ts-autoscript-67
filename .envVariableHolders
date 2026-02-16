@@ -1,0 +1,25 @@
+DB_CONNECTION=marion
+FORCE_HTTPS=true
+DB_HOST=uat.og.tst
+DB_USERNAME=admin
+DB_PASSWORD=adminer
+DB_NAME=really_v7
+DB_DATABASE=really_v7
+APP_ENV=prod
+SPA_ENVIRONMENT=prod
+SESSION_LIFETIME=500
+SESSION_DOMAIN=.x
+SANCTUM_STATEFUL_DOMAINS=l.x.org:80,l.x.org:443
+KIOSK_SESSION_LIFETIME=50
+SMS_CDYNE_KEY=6eff8e39-0fa4-4ba2-981a-918d8f6b239d
+LDAP_HOST=test.ldap.org
+LDAP_USERNAME='uid=marion,ou=system'
+LDAP_PASSWORD='yowwh'
+LDAP_PORT=1555
+LDAP_TIMEOUT=5
+LDAP_SSL=true
+# If you want to honour userActive in our DB and prevent new user creation and inactive user login set to true
+LDAP_PREVENT_INACTIVE_USER=true
+TMS_LICENSE="sfdsfdfs"
+FILESYSTEM_DRIVER=customer
+NEW_VARIABLES=customer
