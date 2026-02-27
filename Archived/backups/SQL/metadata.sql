@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS `errormessages` (
 -- Dumping data for table cmh_kansas_prod.errormessages: ~468 rows (approximately)
 DELETE FROM `errormessages`;
 INSERT INTO `errormessages` (`errorID`, `errorMessageID`, `errorFunction`, `errorMessageShort`, `errorMessageLong`, `createdBy`, `updatedBy`, `created_at`, `updated_at`) VALUES
-	(1, 'ERROR_BOTTLE_INVALID', 'GetErrorMessageFor_AREA_GENERIC', 'The selected bottle is not valid.', 'The bottle that you selected <strong> @bottle@ </strong> is not a valid bottle. ', NULL, NULL, NULL, NULL),
+	(1, 'ERROR_BOTTLE_INVALIDs', 'GetErrorMessageFor_AREA_GENERIC', 'The selected bottle is not valid.', 'The bottle that you selected <strong> @bottle@ </strong> is not a valid bottle. ', NULL, NULL, NULL, NULL),
 	(2, 'ERROR_BOTTLES_EXPIRED', 'GetErrorMessageFor_AREA_GENERIC', 'The selected bottles have expired.', 'The following bottles have expired: <Strong> @bottle@ </strong>', NULL, NULL, NULL, NULL),
 	(3, 'ERROR_BOTTLES_DISPOSED', 'GetErrorMessageFor_AREA_GENERIC', 'The selected bottle have already been disposed.', 'The following bottles have already been disposed: <Strong> @bottle@ </strong>', NULL, NULL, NULL, NULL),
 	(4, 'ERROR_BOTTLE_DISPOSED', 'GetErrorMessageFor_AREA_GENERIC', 'The selected bottle has already been disposed.', 'The bottle that you selected <strong> @bottle@ </strong> has already been disposed.', NULL, NULL, NULL, NULL),

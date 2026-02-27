@@ -2,12 +2,14 @@
 $WindowsMySqlPath = "C:\Program Files\MariaDB 10.6\bin\mysql.exe" 
 $DockerContainer  = "wai-web-db-1"
 $DatabaseName     = "cmh_prod"
+# $DatabaseName     = "cmh_uat"
 $MySqlUser        = "root"
 $EnvFilePath      = "C:\Users\mbalugo\Documents\automation scripts\.env"
 
 # Updated to your specific file path
 $ImportFile = "C:\Users\mbalugo\Documents\automation scripts\Archived\backups\SQL\platform-users-20260128_205902.sql"
 $ImportFile = "C:\Users\mbalugo\Documents\automation scripts\Archived\backups\SQL\metadata.sql"
+# $ImportFile = "C:\Users\mbalugo\Documents\automation scripts\Archived\backups\SQL\products.sql"
 
 # 2. Read Password from .env
 if (Test-Path $EnvFilePath) {
